@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num,rev;
+printf("Enter the number to be reversed");
+scanf("%d",&num);
+for(rev=0;num>0;num=num/10)
+{
+rev=rev*10;
+rev=rev+num%10;
+}
+printf("The reversed number is :%d",rev);
+getch();
+}
