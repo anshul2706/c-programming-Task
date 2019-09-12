@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int m1,m2,m3,sum;
+float avg;
+printf("Enter marks in subject 1");
+scanf("%d",&m1);
+printf("Enter marks in subject 2");
+scanf("%d",&m2);
+printf("Enter marks in subject 3");
+scanf("%d",&m3);
+sum=(m1+m2+m3);
+avg=(m1+m2+m3)/3;
+printf("Sum of marks of 3 subjects is :%d",sum);
+printf("Average of marks of 3 subject is:%f",avg);
+getch()
+}
