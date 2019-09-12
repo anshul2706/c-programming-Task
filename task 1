@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int age;
+char n[10];
+float pn;
+printf("Enter your name");
+scanf("%s",&n);
+printf("Enter your age");
+scanf("%d",&age);
+printf("enter your Phone Number");
+scanf("%f",&pn);
+printf("Your name is:%s \n Your Age is:%d \n Your Phone Number is :%f",n,age,pn);
+getch()
+}
